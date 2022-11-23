@@ -1,7 +1,7 @@
 {
   "name": "pb-project-shrugman",
   "version": "1.0.0",
-  "description": "",
+  "description": "Let's build another guessing game.\r One player, makes up a secret word or phrase (we will use movie titles), while the other player tries to guess the word by asking what letters it contains.\r However, every wrong guess brings them one step closer to losing.\r To indicate how many attempts are left, instead of the usual hanging man drawing, we draw the shrug emoji. It consists of exactly 10 characters:",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "colors": "^1.4.0",
     "prompt-sync": "^4.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FBW-E06-1/pb-project-shrugman-alexgrubor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FBW-E06-1/pb-project-shrugman-alexgrubor/issues"
+  },
+  "homepage": "https://github.com/FBW-E06-1/pb-project-shrugman-alexgrubor#readme"
 }
